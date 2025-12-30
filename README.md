@@ -11,7 +11,7 @@ It seems that the aggregate size is limited to 500 MB, so we do need to set some
 
 1. Be nice.  Be polite.  Do not offend.  All the things you're taught at 2 years old apply.
 2. When in doubt, consult rule (1) above.
-3. Github users must specifically ask to be made a 'member' of this github organization **_(how to do so is TBD)_**
+3. Github users must specifically ask to be made a 'member' of this github organization by opening a Github Issue in the membership-request repo here
 4. It might take a day or so for an admin to have time to add you.  Be patient.  Consult rule (1) as needed.
 5. Once an org admin has added you as a member, you will have the ability to create repos here.
 6. All repos here must be 'public' only.  If you need a 'private' repo, please use your personal github account.
