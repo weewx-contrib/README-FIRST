@@ -47,3 +47,22 @@ The usual Github methods all work:
 * create a new repo from scratch, set the remote, push
 
 NOTE: The 'import repository' link creates the repo for you and imports in one step.  The other methods require you to create your repo here before pushing to it from a clone of your existing repo that you have locally.
+
+### How to Upload your Repo's Wiki
+
+Background:
+* a wiki is simply a repo with a special name
+* so if your code repo is named "myrepo", the wiki is named "myrepo.wiki".
+
+To import your old wiki here:
+* create an empty wiki associated with your repo here so one exists
+* git clone your existing wiki, change its remote to point here
+* git push your wiki here
+
+### How to Upload your Repo's Issues
+
+Uncertain.  It seems that you might be able to use the Github API to transfer them one-by-one via:
+
+`gh issue transfer <issue-number> --repo <owner/destination-repository>`
+
+
