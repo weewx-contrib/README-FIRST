@@ -40,26 +40,10 @@ Bottom line is if it is a code addition to weewx, it's ok to consider hosting he
 
 ### How To Upload Your Repo
 
-#### Add your repo by importing it from your personal github
-```
-  Use the create new repository => import feature.
-  Note that unfortunately this will not import your wiki
-  It is uncertain if it will import your Issues
+The usual Github methods all work:
+* use the Repositories => New button and the 'import repository' link
+* modify the git remote setting on a clone you have locally and push here
+* add a second remote to a clone you have locally and push here
+* create a new repo from scratch, set the remote, push
 
-```
-
-#### Add the repo here as another remote to your personal github repo
-To quickly add your existing repo and push here as a remote named 'org'
-```
-  create the repo here via the repositories create button and menus
-      please ensure that you've set it to be public
-
-  # set it up as a git remote (this example names the remote 'org'
-  git remote add org https://github.com/weewx-contrib/YOURREPONAME.git
-
-  # check it is a remote
-  git remote -v
-
-  # push your repo's 'main' branch to the remote named 'org'
-  git push -u org main
-```
+NOTE: The 'import repository' link creates the repo for you and imports in one step.  The other methods require you to create your repo here before pushing to it from a clone of your existing repo that you have locally.
