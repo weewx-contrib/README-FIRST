@@ -35,6 +35,7 @@ Anything else, including but not limited to:
 * HOWTOs
 * standalone build/install/configure scripts or the like
 * anything like a blog or documentation-only set of pages
+* anything 'not' weewx related
 
 Bottom line is if it is a code addition to weewx, it's ok to consider hosting here.
 
