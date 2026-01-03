@@ -46,8 +46,9 @@ The usual Github methods all work:
 * modify the git remote setting on a clone you have locally and push here
 * add a second remote to a clone you have locally and push here
 * create a new repo from scratch, set the remote, push
+* or even fork the authoritative repo here
 
-NOTE: The 'import repository' link creates the repo for you and imports in one step.  The other methods require you to create your repo here before pushing to it from a clone of your existing repo that you have locally.
+NOTE: The 'import repository' link creates the repo for you and imports in one step.  The other methods require you to create your repo here before pushing to it from a clone of your existing repo that you have locally.   All github features (or lack thereof) and limitations apply.
 
 ### How to Upload your Repo's Wiki
 
